@@ -124,7 +124,7 @@ $ ln -s $(realpath gojira/gojira.sh) ~/.local/bin/gojira
 `.zshrc`, `~/.bashrc` or `~/.bash_profile` depending on which shell you use.
 
 ```bash
-export PATH=~/.local/bin:$PATH
+export PATH=$PATH:~/.local/bin
 ```
 
 ### Additional OSX dependencies
